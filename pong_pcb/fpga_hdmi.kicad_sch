@@ -2958,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 71.12 88.9)
+			(xy 69.85 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2998,13 +2998,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 69.85 68.58)
+			(xy 78.74 68.58) (xy 69.85 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35c4bd13-64af-4715-9815-71c704245d81")
+	)
+	(wire
+		(pts
+			(xy 69.85 60.96) (xy 78.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374a17da-6bfb-4b8a-832d-77b592b849fd")
 	)
 	(wire
 		(pts
@@ -3018,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 69.85 81.28)
+			(xy 78.74 81.28) (xy 69.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 69.85 63.5)
+			(xy 78.74 63.5) (xy 69.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3158,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 78.74) (xy 69.85 78.74)
+			(xy 78.74 78.74) (xy 69.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3338,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 69.85 76.2)
+			(xy 78.74 76.2) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 69.85 73.66)
+			(xy 78.74 73.66) (xy 69.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 69.85 66.04)
+			(xy 78.74 66.04) (xy 69.85 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3415,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "ab075177-1d28-4d51-b47e-e07389e55b3f")
-	)
-	(wire
-		(pts
-			(xy 71.12 60.96) (xy 69.85 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3b62dcc-c021-4774-9e1a-40b9c28e02ea")
 	)
 	(wire
 		(pts
@@ -3618,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 71.12 86.36)
+			(xy 69.85 86.36) (xy 78.74 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 71.12) (xy 69.85 71.12)
+			(xy 78.74 71.12) (xy 69.85 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 83.82) (xy 71.12 83.82)
+			(xy 69.85 83.82) (xy 78.74 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3765,7 +3765,7 @@
 		)
 		(uuid "2e2dd144-74b1-427a-8d0e-6f51422467e2")
 	)
-	(text "pio01 enable\npio02 controller_switch\npio03 btn_up_l\npio04 BTN_down_l\npio05 BTN_up_r\npio06 BTN_down_r\npio07 Trigger_l\npio08 Sensor_l\npio09 Trigger_r\npio10 Sensor_r\n\npio33 Hdmi_out_hpd[0]\npio34 Hdmi_out_clk_n\npio35 Hdmi_out_clk_p\npio36 Hdmi_out_data_p(0)\npio37 Hdmi_out_data_n(0)\npio38 Hdmi_out_data_p(1)\npio39 Hdmi_out_data_n(1)\npio40 Hdmi_out_data_n(2)\npio41 Hdmi_out_data_p(2)"
+	(text "pio01 enable\npio02 controller_switch\npio03 btn_up_l\npio04 BTN_down_l\npio05 BTN_up_r\npio06 BTN_down_r\npio07 Trigger_l\npio08 Sensor_l\npio09 Trigger_r\npio10 Sensor_r\n\npio33 Hdmi_out_hpd[0]\npio34 Hdmi_out_clk-\npio35 Hdmi_out_clk+\npio36 Hdmi_out_data_0+\npio37 Hdmi_out_data_0-\npio38 Hdmi_out_data_1+\npio39 Hdmi_out_data_1-\npio40 Hdmi_out_data_2-\npio41 Hdmi_out_data_2+"
 		(exclude_from_sim no)
 		(at -23.368 39.878 0)
 		(effects
@@ -3874,7 +3874,7 @@
 		)
 		(uuid "9b31ce98-eb52-4c5a-89de-3c5a9e036356")
 	)
-	(global_label "Hdmi_out_data_n(0)"
+	(global_label "Hdmi_out_data_0-"
 		(shape bidirectional)
 		(at 140.97 59.69 180)
 		(fields_autoplaced yes)
@@ -3896,7 +3896,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(1)"
+	(global_label "Hdmi_out_data_1+"
 		(shape input)
 		(at 234.95 50.8 180)
 		(fields_autoplaced yes)
@@ -3918,9 +3918,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(0)"
+	(global_label "Hdmi_out_data_0-"
 		(shape output)
-		(at 71.12 71.12 0)
+		(at 78.74 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3930,7 +3930,7 @@
 		)
 		(uuid "0a6df899-5d28-469c-9c6c-168c043e8ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0339 71.12 0)
+			(at 100.6539 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,9 +3962,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_clk_p"
+	(global_label "Hdmi_out_clk+"
 		(shape output)
-		(at 71.12 76.2 0)
+		(at 78.74 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3974,7 +3974,7 @@
 		)
 		(uuid "1dec5058-3d17-46ad-8241-e3a3a7043677")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.7402 76.2 0)
+			(at 96.3602 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +3984,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(2)"
+	(global_label "Hdmi_out_data_2+"
 		(shape bidirectional)
 		(at 140.97 46.99 180)
 		(fields_autoplaced yes)
@@ -4008,7 +4008,7 @@
 	)
 	(global_label "Hdmi_CEC"
 		(shape output)
-		(at 71.12 83.82 0)
+		(at 78.74 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4018,7 +4018,7 @@
 		)
 		(uuid "2c0231ce-c60b-4176-b915-bff7bbf682dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.5394 83.82 0)
+			(at 91.1594 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4030,7 @@
 	)
 	(global_label "Hdmi_DDC_dlk"
 		(shape output)
-		(at 71.12 86.36 0)
+		(at 78.74 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4040,7 +4040,7 @@
 		)
 		(uuid "3c9071bf-9512-4693-b481-365137a604d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.4703 86.36 0)
+			(at 95.0903 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4050,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(0)"
+	(global_label "Hdmi_out_data_0+"
 		(shape bidirectional)
 		(at 140.97 57.15 180)
 		(fields_autoplaced yes)
@@ -4094,7 +4094,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_clk_p"
+	(global_label "Hdmi_out_clk+"
 		(shape input)
 		(at 234.95 60.96 180)
 		(fields_autoplaced yes)
@@ -4116,7 +4116,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(2)"
+	(global_label "Hdmi_out_data_2-"
 		(shape bidirectional)
 		(at 140.97 49.53 180)
 		(fields_autoplaced yes)
@@ -4138,7 +4138,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(0)"
+	(global_label "Hdmi_out_data_0-"
 		(shape input)
 		(at 234.95 58.42 180)
 		(fields_autoplaced yes)
@@ -4160,7 +4160,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(1)"
+	(global_label "Hdmi_out_data_1+"
 		(shape bidirectional)
 		(at 140.97 52.07 180)
 		(fields_autoplaced yes)
@@ -4182,7 +4182,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(2)"
+	(global_label "Hdmi_out_data_2-"
 		(shape input)
 		(at 234.95 48.26 180)
 		(fields_autoplaced yes)
@@ -4204,7 +4204,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_clk_n"
+	(global_label "Hdmi_out_clk-"
 		(shape input)
 		(at 234.95 63.5 180)
 		(fields_autoplaced yes)
@@ -4248,9 +4248,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_clk_n"
+	(global_label "Hdmi_out_clk-"
 		(shape output)
-		(at 71.12 78.74 0)
+		(at 78.74 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4260,7 +4260,7 @@
 		)
 		(uuid "8ee157db-1a97-4be9-a37d-2b6f16a62414")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.7402 78.74 0)
+			(at 96.3602 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,9 +4270,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(1)"
+	(global_label "Hdmi_out_data_1+"
 		(shape output)
-		(at 71.12 68.58 0)
+		(at 78.74 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4282,7 +4282,7 @@
 		)
 		(uuid "91be5cc3-2e48-4297-9243-3f3284f59c52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0339 68.58 0)
+			(at 100.6539 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4292,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(0)"
+	(global_label "Hdmi_out_data_0+"
 		(shape input)
 		(at 234.95 55.88 180)
 		(fields_autoplaced yes)
@@ -4314,7 +4314,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_clk_n"
+	(global_label "Hdmi_out_clk-"
 		(shape bidirectional)
 		(at 140.97 64.77 180)
 		(fields_autoplaced yes)
@@ -4336,7 +4336,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(1)"
+	(global_label "Hdmi_out_data_1-"
 		(shape bidirectional)
 		(at 140.97 54.61 180)
 		(fields_autoplaced yes)
@@ -4380,9 +4380,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(1)"
+	(global_label "Hdmi_out_data_1-"
 		(shape output)
-		(at 71.12 66.04 0)
+		(at 78.74 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4392,7 +4392,7 @@
 		)
 		(uuid "9b153d2c-3348-4d09-9e51-9bc55ffc3c10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0339 66.04 0)
+			(at 100.6539 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4402,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(1)"
+	(global_label "Hdmi_out_data_1-"
 		(shape input)
 		(at 234.95 53.34 180)
 		(fields_autoplaced yes)
@@ -4424,9 +4424,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(2)"
+	(global_label "Hdmi_out_data_2+"
 		(shape output)
-		(at 71.12 60.96 0)
+		(at 78.74 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4436,7 +4436,7 @@
 		)
 		(uuid "c659d925-ea7e-4a41-9156-7843d6ea007b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0339 60.96 0)
+			(at 100.6539 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4468,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_clk_p"
+	(global_label "Hdmi_out_clk+"
 		(shape bidirectional)
 		(at 140.97 62.23 180)
 		(fields_autoplaced yes)
@@ -4490,7 +4490,7 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(2)"
+	(global_label "Hdmi_out_data_2+"
 		(shape input)
 		(at 234.95 45.72 180)
 		(fields_autoplaced yes)
@@ -4512,9 +4512,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_n(2)"
+	(global_label "Hdmi_out_data_2-"
 		(shape output)
-		(at 71.12 63.5 0)
+		(at 78.74 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4524,7 +4524,7 @@
 		)
 		(uuid "db976c02-4f71-45fc-9156-b741cde7a55f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0339 63.5 0)
+			(at 100.6539 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4536,7 @@
 	)
 	(global_label "Hdmi_out_hpd"
 		(shape output)
-		(at 71.12 81.28 0)
+		(at 78.74 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4546,7 +4546,7 @@
 		)
 		(uuid "e55f5e5b-256b-49ee-a0f0-c5fa2e1bb2b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.2887 81.28 0)
+			(at 94.9087 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,9 +4578,9 @@
 			)
 		)
 	)
-	(global_label "Hdmi_out_data_p(0)"
+	(global_label "Hdmi_out_data_0+"
 		(shape output)
-		(at 71.12 73.66 0)
+		(at 78.74 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4590,7 +4590,7 @@
 		)
 		(uuid "e911ea96-23a7-460c-9420-058fca01475f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0339 73.66 0)
+			(at 100.6539 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4602,7 @@
 	)
 	(global_label "Hdmil_DDC_data"
 		(shape output)
-		(at 71.12 88.9 0)
+		(at 78.74 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4612,7 +4612,7 @@
 		)
 		(uuid "f6075cfb-9965-4481-bc8f-33b801bc0181")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.4659 88.9 0)
+			(at 97.0859 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,6 +4742,190 @@
 		)
 		(uuid "e4c470ae-3379-4684-9541-aed42afd9669")
 	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01bbab38-65f7-4a5f-9659-a6f3aab1345a")
+		(property "Netclass" "HDMI"
+			(at 73.0885 72.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02f235a7-7ef5-4ede-85ec-9fd21887cca9")
+		(property "Netclass" "HDMI"
+			(at 73.0885 77.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66a20b87-2732-4d15-8b7b-14079e6d996b")
+		(property "Netclass" "HDMI"
+			(at 73.0885 65.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80fda2f2-8a86-487c-b3f8-da232e7bd3e9")
+		(property "Netclass" "HDMI"
+			(at 73.0885 59.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99390dcf-84e4-43e9-b61d-6adffbb8c2be")
+		(property "Netclass" "HDMI"
+			(at 73.0885 70.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4d7c1be-277e-49f8-aa04-20ddebb18c9c")
+		(property "Netclass" "HDMI"
+			(at 73.0885 67.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db156ad6-73e2-4932-9060-6c60681b81eb")
+		(property "Netclass" "HDMI"
+			(at 73.0885 75.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 72.39 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de2f3151-d9a3-4225-b1b4-62022a5ce57a")
+		(property "Netclass" "HDMI"
+			(at 73.0885 62.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 87.63 163.83 0)
@@ -4769,7 +4953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 167.64 0)
 			(effects
 				(font
@@ -4847,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 167.64 0)
 			(effects
 				(font
@@ -5727,7 +5911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 66.04 0)
 			(effects
 				(font
@@ -6003,7 +6187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 66.04 0)
 			(effects
 				(font
@@ -6685,7 +6869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 167.64 0)
 			(effects
 				(font
@@ -6763,7 +6947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 266.3952 66.04 0)
 			(effects
 				(font

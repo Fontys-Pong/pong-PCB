@@ -2715,6 +2715,26 @@
 		)
 		(uuid "605632b6-e279-41b8-a8f3-cb9d906b531a")
 	)
+	(text "Left player"
+		(exclude_from_sim no)
+		(at 31.496 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6dcd9dbc-0eec-47de-a26b-deaefe860fa9")
+	)
+	(text "Right Player"
+		(exclude_from_sim no)
+		(at 133.858 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8588cd0a-f677-4927-ad73-0b5f857296d8")
+	)
 	(text "Select controller\n\n"
 		(exclude_from_sim no)
 		(at 236.982 18.542 0)
@@ -2725,6 +2745,26 @@
 			)
 		)
 		(uuid "8fb8fc60-7f84-482d-8f1f-1ab0066428c0")
+	)
+	(text "Right Player"
+		(exclude_from_sim no)
+		(at 133.35 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "930198bd-282b-4a12-8bd4-ad98100f8cb4")
+	)
+	(text "Left player"
+		(exclude_from_sim no)
+		(at 31.242 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b96a8f9f-f422-4729-9f97-f58f37c5b9a2")
 	)
 	(hierarchical_label "GameReset"
 		(shape output)
