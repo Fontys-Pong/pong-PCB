@@ -1642,7 +1642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "106d32e8-08ab-46d1-965a-ade76bbc2bf5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 64.77 114.3 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -1783,7 +1783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d11f44-2bb1-4c38-a89d-d1c720857049")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 200.66 114.3 0)
 			(effects
 				(font
@@ -1833,7 +1833,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46f257b9-59ef-4547-94d3-c4a8a3bdcdf1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -1975,7 +1975,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1990,7 +1990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48249d9b-cb1e-4cbb-bfca-072556637dd5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 240.03 114.3 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2133,7 +2133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66d74d80-460a-4cba-9fc2-5e1c9cd37591")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 212.09 114.3 0)
 			(effects
 				(font
@@ -2183,7 +2183,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71e018c4-1972-4e2e-b3a3-d943c4075369")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -2248,7 +2248,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc54ede-b2d6-4d7e-b38b-c6a7b210edc5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 109.22 114.3 0)
 			(effects
 				(font
@@ -2467,7 +2467,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c7a81f2-cc2c-47a4-93e7-8a70264ac768")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -2532,7 +2532,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95d4b04a-3c6b-4e47-891c-b846140efe21")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 226.06 114.3 0)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2846,7 +2846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7904e70-cff9-4f2b-ae01-8081e706de0d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -2896,7 +2896,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d65094cd-0514-4cdc-af27-eed6ddac1d08")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 138.43 114.3 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3473,7 +3473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa23c530-f1b8-4087-bcf2-447434f27235")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 124.46 114.3 0)
 			(effects
 				(font
@@ -3523,7 +3523,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/06af58df-ecc5-4155-8669-de144a791d03"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

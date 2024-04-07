@@ -787,6 +787,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1662,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 184.15) (xy 25.4 181.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "035acce3-f983-4d66-b7e2-43fc5a73ba2c")
+	)
+	(wire
+		(pts
 			(xy 256.54 44.45) (xy 261.62 44.45)
 		)
 		(stroke
@@ -1792,6 +1938,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 171.45) (xy 39.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "26de781c-aea5-42fa-b395-da11bff3710a")
+	)
+	(wire
+		(pts
 			(xy 152.4 46.99) (xy 152.4 49.53)
 		)
 		(stroke
@@ -1912,6 +2068,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 184.15) (xy 138.43 181.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "423c9d93-3b24-4906-aea9-9f8484270797")
+	)
+	(wire
+		(pts
 			(xy 170.18 148.59) (xy 170.18 151.13)
 		)
 		(stroke
@@ -1989,6 +2155,16 @@
 			(type default)
 		)
 		(uuid "52b23759-239f-4b44-8b2b-e155d00497cb")
+	)
+	(wire
+		(pts
+			(xy 124.46 171.45) (xy 124.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "53032a0b-8e8b-4739-905d-85f85d9ebaeb")
 	)
 	(wire
 		(pts
@@ -2142,6 +2318,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 171.45) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753eee75-a518-47dc-a75c-ea7b7d008873")
+	)
+	(wire
+		(pts
+			(xy 124.46 184.15) (xy 124.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "75dd61b0-1586-4266-9292-1c15e46e691f")
+	)
+	(wire
+		(pts
 			(xy 92.71 125.73) (xy 100.33 125.73)
 		)
 		(stroke
@@ -2242,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 184.15) (xy 39.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8e767b93-9445-4943-970d-b7432ee9ce60")
+	)
+	(wire
+		(pts
 			(xy 256.54 67.31) (xy 256.54 69.85)
 		)
 		(stroke
@@ -2299,6 +2505,16 @@
 			(type default)
 		)
 		(uuid "a083e595-46d8-4f2e-9672-3e3c524ed7f4")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 138.43 173.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a67c009f-883f-4f92-8486-aa2942cebc80")
 	)
 	(wire
 		(pts
@@ -2389,6 +2605,16 @@
 			(type default)
 		)
 		(uuid "b82d4a8c-4ec3-422c-a5b7-30fc88a7760a")
+	)
+	(wire
+		(pts
+			(xy 25.4 171.45) (xy 25.4 173.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b94fe11c-238f-4b8e-9050-844f94cfa641")
 	)
 	(wire
 		(pts
@@ -2509,6 +2735,16 @@
 			(type default)
 		)
 		(uuid "d805055f-84e5-44e6-9931-7f83f21be636")
+	)
+	(wire
+		(pts
+			(xy 83.82 181.61) (xy 83.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e437d032-9f69-4d19-8d2a-914533551a25")
 	)
 	(wire
 		(pts
@@ -2887,6 +3123,162 @@
 		(uuid "f75fa9f5-9f31-46e4-b29f-8120dd14b57e")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 25.4 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00204aaa-fff8-499f-90c4-576127819460")
+		(property "Reference" "C22"
+			(at 28.321 176.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 10v"
+			(at 28.321 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 26.3652 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "LMF105B7103MVHF"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c916bb09-059a-4e07-af71-0734959366c0")
+		)
+		(pin "2"
+			(uuid "c4c2dec5-ad2b-49bf-b75f-b544de14204a")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02b8ee13-43ba-4826-a082-0e845abf20bf")
+		(property "Reference" "C26"
+			(at 86.741 176.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u 10v"
+			(at 86.741 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 84.7852 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "LMK316BC6476ML-T"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "838d3939-d452-4233-9c1b-b918c9b339b2")
+		)
+		(pin "2"
+			(uuid "47c352e4-84a7-4207-9f6c-38350be6c5c1")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 69.85 0)
 		(unit 1)
@@ -2896,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f76e85-08b5-4b10-be71-23684baf664a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR052"
 			(at 50.8 76.2 0)
 			(effects
 				(font
@@ -2946,7 +3338,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR047")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3183,6 +3575,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05c481f0-9ce4-451d-a1fe-4d0ee8115d2c")
+		(property "Reference" "#PWR081"
+			(at 138.43 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 138.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba18f6ef-08d9-4bb1-96a0-be1f3f10a465")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09cea1b3-528b-43e4-a2ef-5003b2a9ad07")
+		(property "Reference" "#PWR087"
+			(at 83.82 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.947 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5ed9f86-30f5-4f4b-8b27-795bf45bf164")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 53.34 0)
 		(unit 1)
@@ -3262,7 +3785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b029297-8db0-4678-9549-ededa7668178")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR058"
 			(at 256.54 76.2 0)
 			(effects
 				(font
@@ -3312,7 +3835,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10759713-5d2c-40ce-90ad-c1f3567148f4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -3378,7 +3901,150 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR050")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "141cbc52-de1e-44fb-beb5-7b9e4dcc0c0d")
+		(property "Reference" "#PWR082"
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.527 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28f4c58b-155d-4066-b7fc-6958f59ad8ab")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14735f93-f572-401c-9f44-8e99148af5d4")
+		(property "Reference" "C23"
+			(at 42.291 176.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 10v"
+			(at 42.291 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 40.3352 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "LMF105B7103MVHF"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36be577b-a22d-4eb5-952d-d2b74f9c9789")
+		)
+		(pin "2"
+			(uuid "d4aea091-b546-4604-b2a0-905cd332baae")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3462,7 +4128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15733e07-059e-4c71-938a-b683979b6dd9")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR070"
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -3512,7 +4178,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR065")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3528,7 +4194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19a5d8ce-70ff-40dc-86fa-d248d2802747")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR051"
 			(at 43.18 76.2 0)
 			(effects
 				(font
@@ -3578,7 +4244,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR046")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3764,6 +4430,72 @@
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b174a2-ccf0-464c-b03c-555a42e5c8d8")
+		(property "Reference" "#PWR086"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 83.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb41afa8-8d19-468b-a1fe-ba66146eb092")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4174,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "313d2296-3989-48a4-93ff-65ef06a5150c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 54.61 157.48 0)
 			(effects
 				(font
@@ -4224,7 +4956,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4240,7 +4972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b33c6b-c137-4d69-86fa-04853857660f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 194.31 114.3 0)
 			(effects
 				(font
@@ -4290,7 +5022,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4446,7 +5178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b83e1d0-8776-4fef-ab7c-de50dfb43483")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -4496,7 +5228,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4688,6 +5420,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 138.43 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b3b8ff5-aab5-4f4b-8c2a-389b4fd4bf08")
+		(property "Reference" "C25"
+			(at 141.351 176.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 10v"
+			(at 141.351 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.3952 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "LMF105B7103MVHF"
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad2360a4-0180-4960-b871-5a0d7fe35b2b")
+		)
+		(pin "2"
+			(uuid "bb1442f7-a96f-4e0a-8944-e57f058ec4e8")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 151.13 0)
 		(unit 1)
@@ -4697,7 +5507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6507f9-d126-4f8b-959f-9913a6c15e96")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR072"
 			(at 143.51 157.48 0)
 			(effects
 				(font
@@ -4747,7 +5557,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR067")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4824,6 +5634,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f2d65a3-2c6b-42a1-b087-66cf98d7fa4b")
+		(property "Reference" "#PWR083"
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.497 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8edb28ba-155e-428f-afc8-2cdc53659a95")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 143.51 110.49 0)
 		(unit 1)
@@ -4833,7 +5708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55dd0775-fe75-4bc2-8385-3a38b956acf8")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR062"
 			(at 143.51 114.3 0)
 			(effects
 				(font
@@ -4883,7 +5758,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4899,7 +5774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ff8b269-ecf7-4e7b-b1ae-18cf5d9cfddf")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR056"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -4949,7 +5824,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5035,7 +5910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66163d4d-93f4-458c-9bd0-6a5f4a18ba97")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR076"
 			(at 248.92 157.48 0)
 			(effects
 				(font
@@ -5085,7 +5960,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR071")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5156,6 +6031,72 @@
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "728468f4-a88a-4345-b246-bacedeaf7e51")
+		(property "Reference" "#PWR078"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 25.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcac099e-4b18-4745-9197-7381d9293e92")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5286,7 +6227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76468859-9bbf-47de-b5c7-abba6205da3b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR060"
 			(at 54.61 114.3 0)
 			(effects
 				(font
@@ -5336,7 +6277,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR055")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5422,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c83c6fb-ce27-442e-a778-67af38abee80")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR071"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -5472,7 +6413,72 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR066")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84bfca9f-cd90-4031-92b8-659c72f66ba9")
+		(property "Reference" "#PWR084"
+			(at 124.46 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.587 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ae43a7d-530d-4c86-899e-8ad87170f7a5")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5488,7 +6494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85bb782e-4246-45f8-8b66-514148d01e02")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -5538,7 +6544,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5624,7 +6630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3d1db2-30a5-43fd-8e9b-250b98922e56")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR057"
 			(at 248.92 76.2 0)
 			(effects
 				(font
@@ -5674,7 +6680,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR052")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5690,7 +6696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e288d4e-1794-4bcf-a51e-9135d6281f7b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR048"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -5740,7 +6746,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR043")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5826,7 +6832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91982bd1-d4b7-4d85-a54c-322a028121c6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR046"
 			(at 50.8 33.02 0)
 			(effects
 				(font
@@ -5876,7 +6882,85 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR041")
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93a73506-1f2e-499c-95bf-b6960ec41de1")
+		(property "Reference" "C24"
+			(at 127.381 176.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 10v"
+			(at 127.381 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 125.4252 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "LMF105B7103MVHF"
+			(at 124.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b202031-3364-4cbb-a853-59ab41fcfb0c")
+		)
+		(pin "2"
+			(uuid "4129e39e-00a5-42e6-bea3-b1e09903f935")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6076,7 +7160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62ea253-0cf7-412e-90c5-049e2753225a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR075"
 			(at 194.31 157.48 0)
 			(effects
 				(font
@@ -6126,7 +7210,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR070")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -6142,7 +7226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c0d56e-a72f-4c6d-b2ec-3a267bd6b7f7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR049"
 			(at 176.53 33.02 0)
 			(effects
 				(font
@@ -6192,7 +7276,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR044")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6208,7 +7292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad2dbf5-3615-4bfc-9961-b37046eff32f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 41.91 157.48 0)
 			(effects
 				(font
@@ -6258,7 +7342,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6274,7 +7358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd9d343-287b-4322-9cfc-f59b5da839a1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -6324,7 +7408,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6340,7 +7424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afda71d2-3e09-4644-81e6-017f21d447b8")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -6390,7 +7474,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6521,7 +7605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e533bf-bf50-4d72-8497-781fc45f3825")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 41.91 114.3 0)
 			(effects
 				(font
@@ -6571,7 +7655,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6587,7 +7671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec2a49d-c438-4544-a3e9-c7232c772b2c")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR073"
 			(at 156.21 157.48 0)
 			(effects
 				(font
@@ -6637,7 +7721,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR068")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6999,6 +8083,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 39.37 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0eb662-0d45-45fc-9b04-faaac5c46302")
+		(property "Reference" "#PWR079"
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087d4615-fb8e-4fe6-9d2d-ab46fef285b9")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 151.13 0)
 		(unit 1)
@@ -7008,7 +8158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbe00d2a-15a1-4ce3-a495-35f469be530f")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 38.1 157.48 0)
 			(effects
 				(font
@@ -7058,7 +8208,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7074,7 +8224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceeecf05-c149-46f2-9c79-e43df33b7997")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 256.54 33.02 0)
 			(effects
 				(font
@@ -7124,7 +8274,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7140,7 +8290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1fe76b6-7a77-4034-afdf-a8c575f61f9e")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR074"
 			(at 170.18 157.48 0)
 			(effects
 				(font
@@ -7190,7 +8340,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR069")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -7468,7 +8618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e09b4f-2fec-492d-837c-034fc447a8ba")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -7518,7 +8668,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7589,6 +8739,71 @@
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc348750-84ef-4ddf-8904-3a5658c2db01")
+		(property "Reference" "#PWR085"
+			(at 138.43 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.557 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c383eb3-8ecf-4f3d-b74c-979b79ca249f")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -7788,7 +9003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7411682-cb70-412b-93da-b40905fd2721")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR077"
 			(at 256.54 157.48 0)
 			(effects
 				(font
@@ -7838,7 +9053,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR072")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7924,7 +9139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaeddbaf-be21-4b59-ab0d-3cad2e071544")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 256.54 114.3 0)
 			(effects
 				(font
@@ -7974,7 +9189,73 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR060")
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 124.46 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec108cb8-e76c-4709-b436-408955076727")
+		(property "Reference" "#PWR080"
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5296d846-4284-4b3b-a3c1-0c7568cd8cbb")
+		)
+		(instances
+			(project "pong_pcb"
+				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8060,7 +9341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4f8ed6-8bf7-4bda-8075-84f8a7415bdf")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR069"
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -8110,7 +9391,7 @@
 		(instances
 			(project "pong_pcb"
 				(path "/676c80a8-0f91-4e34-b1e8-b545e51bb5da/8a88a69b-975b-4570-ad55-0aba1173ddc4"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
