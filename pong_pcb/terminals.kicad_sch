@@ -4052,16 +4052,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 240.03 46.99 180)
+		(at 240.03 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14d17b18-d63c-40de-b0e0-47dff52e1d4c")
 		(property "Reference" "J5"
-			(at 240.03 38.1 0)
+			(at 239.776 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,8 +4076,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 240.03 46.99 0)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+			(at 240.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 46.99 0)
+			(at 240.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 46.99 0)
+			(at 240.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5968,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 31.75 44.45 180)
+		(at 31.75 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5976,7 +5977,7 @@
 		(dnp no)
 		(uuid "69c227fc-d706-41f1-8dcf-1f05c1836f83")
 		(property "Reference" "J3"
-			(at 31.75 35.56 0)
+			(at 31.75 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,14 +5985,14 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 31.75 38.1 0)
+			(at 31.242 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
 			(at 31.75 44.45 0)
 			(effects
 				(font
@@ -7729,16 +7730,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 240.03 128.27 180)
+		(at 240.03 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4a4b639-7e0b-426c-83f7-9f6f93c397cc")
 		(property "Reference" "J8"
-			(at 240.03 119.38 0)
+			(at 239.776 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,8 +7754,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 240.03 128.27 0)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 128.27 0)
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7773,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 128.27 0)
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,8 +7798,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 31.75 120.65 0)
-		(mirror y)
+		(at 31.75 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7806,7 +7806,7 @@
 		(dnp no)
 		(uuid "c602e763-6341-4053-9878-407e5ae210b6")
 		(property "Reference" "J6"
-			(at 31.75 109.22 0)
+			(at 31.75 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,14 +7814,14 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 27.178 111.76 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-5-5.08_1x05_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_5-G-5,08_1x05_P5.08mm_Horizontal"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -8418,8 +8418,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 133.35 120.65 0)
-		(mirror y)
+		(at 133.35 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8427,7 +8426,7 @@
 		(dnp no)
 		(uuid "d71d3298-f83b-4ac9-b871-3ad13ad6be46")
 		(property "Reference" "J7"
-			(at 133.35 109.22 0)
+			(at 133.604 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,14 +8434,14 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 126.238 111.506 0)
+			(at 131.318 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-5-5.08_1x05_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_5-G-5,08_1x05_P5.08mm_Horizontal"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -8811,7 +8810,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 133.35 44.45 180)
+		(at 133.35 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8834,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
 			(at 133.35 44.45 0)
 			(effects
 				(font

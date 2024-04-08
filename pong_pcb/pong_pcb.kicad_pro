@@ -190,7 +190,7 @@
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 300,
           "corner_style": 1,
           "max_amplitude": 0.7,
           "min_amplitude": 0.2,
@@ -505,7 +505,16 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Hdmi_out_clk+": "HDMI",
+      "Hdmi_out_clk-": "HDMI",
+      "Hdmi_out_data_0+": "HDMI",
+      "Hdmi_out_data_0-": "HDMI",
+      "Hdmi_out_data_1+": "HDMI",
+      "Hdmi_out_data_1-": "HDMI",
+      "Hdmi_out_data_2+": "HDMI",
+      "Hdmi_out_data_2-": "HDMI"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

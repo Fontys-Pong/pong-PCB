@@ -1081,7 +1081,7 @@
 		)
 	)
 	(junction
-		(at 106.68 45.72)
+		(at 118.11 45.72)
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "8e6b02c3-fe7d-4145-9622-f74bf5b96965")
@@ -1101,16 +1101,6 @@
 			(type default)
 		)
 		(uuid "06910596-d4c5-4ef9-b539-4ed8e4c7d810")
-	)
-	(wire
-		(pts
-			(xy 135.89 45.72) (xy 106.68 45.72)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "089f35e3-3632-423b-9ced-270c63cf3876")
 	)
 	(wire
 		(pts
@@ -1184,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 45.72) (xy 106.68 44.45)
+			(xy 118.11 45.72) (xy 118.11 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 58.42) (xy 106.68 57.15)
+			(xy 118.11 58.42) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 106.68 45.72)
+			(xy 118.11 49.53) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 36.83) (xy 100.33 36.83)
+			(xy 118.11 36.83) (xy 100.33 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1351,6 +1341,16 @@
 			(type default)
 		)
 		(uuid "cd55a28f-ef41-4dd9-8821-ec112d094080")
+	)
+	(wire
+		(pts
+			(xy 135.89 45.72) (xy 118.11 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d61c8845-2ae2-4bac-a953-22455c93d62e")
 	)
 	(wire
 		(pts
@@ -1529,9 +1529,31 @@
 		)
 		(uuid "cfd83fec-d4f7-4f9f-9534-ed37540f3573")
 	)
+	(label "power_fused"
+		(at 101.6 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "671426cb-0752-454d-a3cc-9ebc01780e0e")
+	)
+	(label "power_in"
+		(at 81.28 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf921efa-e6a5-4982-9606-6bdf8d165bb9")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 58.42 0)
+		(at 118.11 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1539,7 +1561,7 @@
 		(dnp no)
 		(uuid "0fce46dd-769b-46f6-86c2-971e5451eae2")
 		(property "Reference" "#PWR04"
-			(at 106.68 64.77 0)
+			(at 118.11 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.807 62.8142 0)
+			(at 118.237 62.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 58.42 0)
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 58.42 0)
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 58.42 0)
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2222,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 106.68 40.64 90)
+		(at 118.11 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2208,7 +2230,7 @@
 		(dnp no)
 		(uuid "b36dd28c-a7c9-4621-8f6f-70dfb5b222d7")
 		(property "Reference" "D1"
-			(at 108.712 39.4716 90)
+			(at 120.142 39.4716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2239,7 @@
 			)
 		)
 		(property "Value" "S3MB-13-F"
-			(at 108.712 41.783 90)
+			(at 120.142 41.783 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2248,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 106.68 40.64 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 40.64 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2266,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 106.68 40.64 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2275,7 @@
 			)
 		)
 		(property "Mouser" "S3MB-13-F"
-			(at 106.68 40.64 90)
+			(at 118.11 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2284,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 40.64 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2293,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 40.64 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2318,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 72.39 39.37 180)
+		(at 72.39 36.83 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2304,7 +2327,7 @@
 		(dnp no)
 		(uuid "ca41e4ca-5fd1-4230-9e37-ce6a8b64dcd2")
 		(property "Reference" "J1"
-			(at 74.4728 31.115 0)
+			(at 72.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,15 +2335,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 74.4728 33.4264 0)
+			(at 73.66 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 72.39 39.37 0)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 39.37 0)
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 39.37 0)
+			(at 72.39 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2584,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 106.68 53.34 270)
+		(at 118.11 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2569,7 +2592,7 @@
 		(dnp no)
 		(uuid "fa26b471-3ea9-40b8-9ede-db489f897066")
 		(property "Reference" "D2"
-			(at 108.712 52.1716 90)
+			(at 120.142 52.1716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2601,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 108.712 54.483 90)
+			(at 120.142 54.483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2610,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 106.68 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2628,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 106.68 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2637,7 @@
 			)
 		)
 		(property "Mouser" "824520281"
-			(at 106.68 53.34 90)
+			(at 118.11 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
