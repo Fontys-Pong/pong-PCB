@@ -5053,6 +5053,16 @@
 		)
 		(uuid "4cf032a2-3c13-4f25-a10a-fbdf3e416dfc")
 	)
+	(text "37 -> 40\n39 -> 37\n40 -> 39"
+		(exclude_from_sim no)
+		(at -16.256 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b349b2c0-3677-4f45-acc2-93cf69b05400")
+	)
 	(text "HDMI ESD"
 		(exclude_from_sim no)
 		(at 108.458 20.828 0)
@@ -5176,7 +5186,7 @@
 	)
 	(global_label "Hdmi_out_data_0-"
 		(shape output)
-		(at 78.74 71.12 0)
+		(at 78.74 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5186,7 +5196,7 @@
 		)
 		(uuid "0a6df899-5d28-469c-9c6c-168c043e8ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6539 71.12 0)
+			(at 100.6539 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5648,7 @@
 	)
 	(global_label "Hdmi_out_data_1-"
 		(shape output)
-		(at 78.74 66.04 0)
+		(at 78.74 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5648,7 +5658,7 @@
 		)
 		(uuid "9b153d2c-3348-4d09-9e51-9bc55ffc3c10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6539 66.04 0)
+			(at 100.6539 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5780,7 @@
 	)
 	(global_label "Hdmi_out_data_2-"
 		(shape output)
-		(at 78.74 63.5 0)
+		(at 78.74 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5780,7 +5790,7 @@
 		)
 		(uuid "db976c02-4f71-45fc-9156-b741cde7a55f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6539 63.5 0)
+			(at 100.6539 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
